@@ -90,7 +90,6 @@ header img{
 }
 .card {
   position: absolute;
-  z-index: 100;
   top: 0;
   left: calc(85vw / 4);
   background-color: rgba(255, 255, 255, 0.05);
@@ -155,3 +154,24 @@ footer {
   scrollbar-width: thin;
 }
 
+@media screen and (max-width:767px){
+
+    .front-heading{
+      font-size: 4rem;
+      line-height: 6vh;
+      left: 40%;
+      color: black;
+    }
+   
+    .card{
+      left: 0;
+      min-width: 90%;
+      overflow-y: hidden;
+    }
+
+    .open{
+      top: 2%;
+
+      z-index: 120;
+    }
+}
