@@ -116,12 +116,27 @@ footer {
   margin-top: 5%;
   height: 15vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  font-family: Kanit;
   color: white;
-  font-size: 1em;
+  font-size: 2em;
+  text-align: left;
+  padding-left: 5%;
 }
 
+footer a{
+  color:  white;
+}
+
+footer svg{
+  height: 50px;
+  transition: all ease 0.2s;
+}
+
+footer svg:hover{
+  scale: 1.2;
+}
 .open {
   position: absolute;
   width: 30px;
